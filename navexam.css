@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(https://i.pinimg.com/originals/a6/ef/90/a6ef90fa8ed8ea1a620186565edcef37.jpg);
+height: 1700px;
+width: 1200px;
+margin-left: 650px;
+
+}
+.form{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    position: relative;
+    top: 625px;
+    left: 743px;
+    border-radius: 10px 20px;
+
+}
+.form buttm #b{
+    margin-left: 30px;
+}

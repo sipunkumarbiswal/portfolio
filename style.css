@@ -1,0 +1,178 @@
+/* NAV SECTION STYLE START */
+*{
+    padding:0px;
+    margin:0px;
+}
+ .universal-padding{
+    padding:0% 5%;
+}
+
+.nav-container{
+    background-color: black;
+    height:70px;
+    position: fixed;
+    width:100vw;
+    z-index:1;
+    right: 0px;
+    
+}
+.nav-right ul{
+    display: flex;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    padding-left:40px;
+    color:white;
+    font-size: 20px;
+}
+.nav-right ul li{
+    list-style-type: none;
+}
+.nav-right{
+    float:right;
+}
+
+.nav-right ul li a:hover{
+    color: crimson;
+    
+}
+
+/* NAV SECTION STYLE END */
+
+/* HOME SECTION STYLE START */
+
+.home-container{
+    background-color:#080808;
+    height:100vh;
+
+}
+.home-section60 h1 span{
+    color:cyan;
+
+}
+.home-container .home-section60 h{
+   /* font-size: 4em; */
+   
+}
+
+.home-container .home-section60{
+position: relative; 
+top:200px;
+left: 150px;
+    width:60%;
+    float:left;
+}
+ .home-section60{
+color: white;
+    }
+
+.home-container .home-section40{
+    position: relative;
+    top:200px;
+    left: 15%;
+    width:37%;
+    float:left;
+}
+
+.home-container .home-section40 img{
+   width:250px;
+   height:500px;
+}
+
+/* HOME SECTION STYLE END */
+
+/* about secton start */
+  .about-container{
+    background-color:aqua;
+    height:100vh;
+  }
+   .about-container .about-section30{
+    width: 30%;
+   position: relative; 
+   float: left;
+    top: 90px; 
+   
+  }
+  .about-container .about-section30 img{
+    border-radius: 20px 30px;
+    box-shadow:0px 0px 5px 5px chartreuse;
+    position: relative;
+  }
+ .about-container .about-section70{
+    width:60%;
+    position:relative;
+    float: left;
+    left: 150px;
+    top: 90px;
+  } 
+  .about-container .about-section70 h1{
+    padding-top: 10px;
+    font-size: 35px;
+  }
+  .about-container .about-section70 p{
+    padding-top: 10px;
+  }
+  .about-container .about-section70 nav ul{
+    display: flex;
+    position: relative;
+    right: 30px;
+  }
+  .about-container .about-section70 nav ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 19px;
+  }
+  .about-container .about-section70 nav ul li{
+    list-style-type: none;
+    padding-top: 15px;
+  }
+  .about-container .about-section70 nav ul li a:hover{
+    color: red;
+  }
+/* about section end */
+
+ /* service section start  */
+.service-container{
+  background-color: #1ab143;
+  height: 100vh;
+}
+.service ul .box1{
+  height: 250px;
+  width: 300px;
+  text-align: center;
+  background-color: red;
+  border-radius: 20px 25px;
+}
+.service ul .box2{
+  height: 250px;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(110, 161, 34);
+  border-radius: 20px 25px;
+  
+  
+}
+.service ul .box3{
+  height: 250px;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(63, 41, 225);
+  border-radius: 20px 25px;
+}
+.service ul{
+  display: flex;
+  list-style-type: none;
+}
+ .service ul li{
+margin-left: 40px;
+position: relative;
+top: 300px;
+left: 195px;
+   
+}
+.service ul li h1{
+  margin-top: 30px;
+}
+
+
+   /* service section start  */
